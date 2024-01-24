@@ -47,8 +47,8 @@ public:
 };
 
 int main() {
-    Car myCar;
-    Car Toyota;
+        Car myCar;
+        Car Toyota;
 
 	Toyota.setColor("Red");
 	Toyota.setModel("Hundai");
@@ -59,7 +59,7 @@ int main() {
 //	std::cout << Toyota.getYear();
 	Toyota.displayDetails();
 
-    return 0;
+        return 0;
 }
 
 ```
