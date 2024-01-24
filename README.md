@@ -6,12 +6,6 @@ Please fill in the blank
 ```cplus
 /*
 /*
-* Name: Lucas Yepez
-*/
-
-// Question: Create a C++ class representing a car with attributes like model, year, and color. Include a method to display car details.
-// Answer: --------------------------------------- here
-
 #include <iostream>
 #include <string>
 
@@ -49,10 +43,20 @@ public:
 int main() {
         Car myCar;
         Car Toyota;
+        std::string model;
+        std::string color;
+        int year;
+     std::cout << "Enter model" << std::endl;
+     std::cin >>model;
+     std::cout << "Enter color" << std::endl;
+     std::cin >>color;
+     std::cout << "Enter year" << std::endl;
+     std:: cin >>year;
+     
 
-	Toyota.setColor("Red");
-	Toyota.setModel("Hundai");
-	Toyota.setYear(2023);
+	Toyota.setColor(color);
+	Toyota.setModel(model);
+	Toyota.setYear(year);
 //	std::cout << Toyota.getModel();
 //	std::cout << Toyota.getColor();
 //	std::cout << Toyota.getColor();
@@ -61,5 +65,6 @@ int main() {
 
         return 0;
 }
+
 
 ```
